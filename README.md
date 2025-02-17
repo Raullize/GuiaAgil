@@ -90,42 +90,21 @@ O **Scrum** é um framework ágil para o desenvolvimento de produtos complexos, 
 
 ---
 
-## 🌟 Scrumban: O Melhor dos Dois Mundos
+## 📊 Kanban vs. Scrum: Qual Escolher?
 
-O **Scrumban** é uma abordagem híbrida que combina a estrutura do Scrum com a flexibilidade do Kanban. Ele foi criado para equipes que precisam da disciplina do Scrum, mas desejam a adaptabilidade do Kanban.
-
-### 🚀 **Como Funciona o Scrumban?**
-- **Planejamento flexível:** Mantém o planejamento do Scrum, mas com fluxos Kanban para o trabalho diário.
-- **Limites de WIP:** Controla o volume de trabalho em andamento, como no Kanban.
-- **Eventos adaptados:** Daily Scrums e retrospectivas mantidos, mas com foco na otimização do fluxo.
-
-### 🌟 **Vantagens do Scrumban**
-- Flexibilidade do Kanban com a organização do Scrum;
-- Adequado para ambientes de mudança constante;
-- Melhor visibilidade e controle do fluxo de trabalho.
-
-### 🛠️ **Fluxograma do Scrumban:**
-```
-[Backlog] ➡️ [Planejamento de Sprint] ➡️ [Quadro Kanban] ➡️ [Review & Retrospective]
-```
-
----
-
-## 📊 Kanban vs. Scrum vs. Scrumban: Qual Escolher?
-
-| Característica        | Kanban                         | Scrum                          | Scrumban                        |
-|-----------------------|--------------------------------|--------------------------------|---------------------------------|
-| **Foco**              | Fluxo contínuo de trabalho     | Entregas em sprints            | Combina fluxo contínuo e sprints |
-| **Papéis definidos**  | Não requer papéis específicos  | Papéis bem definidos            | Flexível quanto aos papéis       |
-| **Flexibilidade**     | Alta                            | Moderada                        | Alta com estrutura leve         |
-| **Melhoria contínua** | Baseada no fluxo               | Baseada em retrospectivas       | Baseada em feedback contínuo    |
-| **Adequação**         | Demandas variáveis             | Projetos com metas claras       | Ambientes dinâmicos e híbridos   |
+| Característica        | Kanban                         | Scrum                          |
+|-----------------------|--------------------------------|--------------------------------|
+| **Foco**              | Fluxo contínuo de trabalho     | Entregas em sprints             |
+| **Papéis definidos**  | Não requer papéis específicos  | Papéis bem definidos            | 
+| **Flexibilidade**     | Alta                           | Moderada                        |
+| **Melhoria contínua** | Baseada no fluxo               | Baseada em retrospectivas       | 
+| **Adequação**         | Demandas variáveis             | Projetos com metas claras       | 
 
 ---
 
 ## ✅ Conclusão
 
-Tanto o **Kanban**, o **Scrum** quanto o **Scrumban** oferecem abordagens poderosas para a Gestão Ágil. A escolha entre eles depende do contexto da equipe, do projeto e dos objetivos da organização.
+Tanto o **Scrum**, quanto o **Kanban**, oferecem abordagens poderosas para a Gestão Ágil. A escolha entre eles depende do contexto da equipe, do projeto e dos objetivos da organização.
 
 Adotar práticas ágeis não é apenas implementar um framework, mas sim fomentar uma **cultura de colaboração, transparência e melhoria contínua**. 🌟
 
