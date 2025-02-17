@@ -4,7 +4,7 @@
 
 A **Gestão Ágil** é uma abordagem moderna para o gerenciamento de projetos que busca promover flexibilidade, colaboração contínua e entrega de valor de forma iterativa. Originada no desenvolvimento de software, hoje a agilidade é aplicada em diversos setores, oferecendo uma resposta mais eficaz a mudanças e desafios do mercado.
 
-Neste artigo, exploramos os principais frameworks ágeis: **Kanban**, **Scrum** e o híbrido **Scrumban**, analisando suas características e melhores práticas para implementação.
+Neste artigo, exploramos os principais frameworks ágeis: **Scrum** e **Kanban**, analisando suas características e melhores práticas para implementação.
 
 ## 📊 Origem das Metodologias Ágeis
 
