@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:0ADB3F,11:08D265,22:06C98B,33:04BFB1,44:02B6D7,55:00ADFD,66:4082D7,77:8057B2,88:BF2B8C,99:FF0066,100:FF0066&height=180&section=header&text=Gestão+Ágil&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=35"/>
 
-Bem-vindo ao **Guia Ágil**! 🚀 Este repositório tem como objetivo ajudar você a entender os principais conceitos das **Metodologias Ágeis**, como **Scrum** e **Kanban**, de forma prática e objetiva.
+Bem-vindo ao **Guia Ágil**! 🚀 Este repositório tem como objetivo ajudar você a entender os principais conceitos das **Metodologias Ágeis**, como **Scrum**, **Kanban** e **XP (Extreme Programming)**, de forma prática e objetiva.
 
 ## 📌 Sumário
 
@@ -9,6 +9,8 @@ Bem-vindo ao **Guia Ágil**! 🚀 Este repositório tem como objetivo ajudar voc
 - [Conceitos de Agilidade](#-conceitos-de-agilidade)
 - [Scrum](#-scrum)
 - [Kanban](#-kanban)
+- [XP (Extreme Programming)](#-xp-extreme-programming)
+- [Comparativo entre Metodologias](#-comparativo-entre-metodologias)
 
 ---
 
@@ -112,7 +114,8 @@ O Scrum promove a transparência, a inspeção contínua e a adaptação rápida
 ### 📖 **User Stories e Backlog:**
 
 - **User Stories:** Descrevem funcionalidades sob a perspectiva do usuário.
-- **Backlog:** Lista priorizada de todas as tarefas a serem realizadas.
+  - Formato: "Como [perfil], eu quero [objetivo], para que [benefício]"
+- **Backlog Refinement:** Processo contínuo de detalhar, estimar e priorizar itens do backlog.
 
 ### 🔄 **Fluxograma do Scrum:**
 
@@ -134,18 +137,78 @@ Criado pela Toyota nos anos 1940 para gerenciar a produção de automóveis, o K
 
 ### 📊 **Conceitos do Kanban:**
 
-1. **Visualizar o fluxo de trabalho**
-2. **Limitar o trabalho em progresso (WIP)**
-3. **Gerenciar o fluxo**
-4. **Tornar políticas explícitas**
-5. **Implementar ciclos de feedback**
-6. **Melhorar colaborativamente**
+1. **Visualizar o fluxo de trabalho** - Quadro visual com colunas representando estágios do processo.
+2. **Limitar o trabalho em progresso (WIP)** - Evita sobrecarga e aumenta a qualidade e velocidade de entrega.
+3. **Gerenciar o fluxo** - Identificar e resolver gargalos para manter o trabalho fluindo.
+4. **Tornar políticas explícitas** - Documentar regras e processos para clareza do time.
+5. **Implementar ciclos de feedback** - Revisões regulares do processo e métricas.
+6. **Melhorar colaborativamente** - Cultura de melhoria contínua baseada em dados.
+
+### 📈 **Métricas do Kanban:**
+
+- **Lead Time**: Tempo total desde a criação até a conclusão de uma tarefa.
+- **Cycle Time**: Tempo que uma tarefa leva do início do trabalho até a conclusão.
+- **Throughput**: Quantidade de itens concluídos em um determinado período.
+- **CFD (Cumulative Flow Diagram)**: Visualização da quantidade de trabalho em cada estágio ao longo do tempo.
 
 ### 🔄 **Fluxograma do Kanban:**
 
 ```bash
-[Backlog] ➡ [To Do] ➡ [In Progress] ➡ [Done]
+[Backlog] ➡ [To Do] ➡ [In Progress] ➡ [Testing] ➡ [Done]
 ```
+
+---
+
+## 💻 XP (Extreme Programming)
+
+O **Extreme Programming** é uma metodologia ágil que enfatiza a qualidade do código, testes automatizados e ciclos de desenvolvimento curtos. Criado por Kent Beck nos anos 1990, o XP se destaca por suas práticas técnicas rigorosas e ciclos de feedback extremamente rápidos.
+
+### 🧩 **Valores do XP:**
+
+1. **Simplicidade** - Fazer o que é necessário e nada mais, evitando complexidades desnecessárias.
+2. **Comunicação** - Promover diálogo constante entre desenvolvedores e clientes.
+3. **Feedback** - Obter e incorporar retorno rápido em todos os aspectos do trabalho.
+4. **Coragem** - Tomar decisões difíceis quando necessário (refatoração, descartar código, etc).
+5. **Respeito** - Valorizar cada membro da equipe e seu trabalho.
+
+### 🛠️ **Práticas do XP:**
+
+1. **Programação em Pares** - Dois desenvolvedores trabalhando juntos em uma mesma tarefa.
+2. **Desenvolvimento Orientado a Testes (TDD)** - Escrever testes antes do código.
+3. **Integração Contínua** - Integrar e testar o código várias vezes ao dia.
+4. **Refatoração** - Melhorar continuamente o design do código sem alterar seu comportamento.
+5. **Design Simples** - Manter o código o mais simples possível para satisfazer requisitos atuais.
+6. **Cliente Presente** - Acesso contínuo ao cliente para esclarecimentos e feedback.
+7. **Pequenas Versões** - Entregar funcionalidades em pequenos incrementos de valor.
+8. **Padrões de Codificação** - Seguir convenções consistentes de código.
+9. **Propriedade Coletiva do Código** - Qualquer desenvolvedor pode modificar qualquer parte do código.
+10. **Ritmo Sustentável** - Manter um ritmo de trabalho que possa ser sustentado indefinidamente.
+
+### 🔄 **Ciclo de Desenvolvimento XP:**
+
+```bash
+[Planejamento] ➡ [Design] ➡ [Codificação (TDD, Pair Programming)] ➡ [Testes] ➡ [Integração] ➡ [Feedback]
+```
+
+### 📝 **Planejamento no XP:**
+
+- **Release Planning** - Planejar funcionalidades para as próximas versões.
+- **Iteration Planning** - Detalhar tarefas para a iteração atual (geralmente 1-2 semanas).
+- **Planning Game** - Técnica para estimar e priorizar histórias de usuário.
+
+---
+
+## 🔄 Comparativo entre Metodologias
+
+| Característica | Scrum | Kanban | XP |
+|----------------|-------|--------|-----|
+| **Iterações** | Fixas (Sprints) | Fluxo contínuo | Ciclos muito curtos |
+| **Alterações no ciclo** | Evitadas durante a Sprint | Permitidas a qualquer momento | Esperadas e bem-vindas |
+| **Papéis** | Product Owner, Scrum Master, Time | Não define papéis específicos | Cliente, Desenvolvedores, Coach |
+| **Foco principal** | Gerenciamento de produto | Fluxo de trabalho | Práticas de engenharia |
+| **Métricas** | Velocity, Burndown | Lead time, Cycle time | Testes passando, builds estáveis |
+| **Ideal para** | Projetos complexos com requisitos variáveis | Operações e serviços contínuos | Projetos com requisitos em constante mudança |
+| **Práticas técnicas** | Não prescreve | Não prescreve | Altamente prescritivas (TDD, Pair Programming) |
 
 ---
 
